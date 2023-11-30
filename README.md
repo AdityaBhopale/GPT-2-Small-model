@@ -42,10 +42,4 @@ The training loop has been extended to support distributed training across multi
 
 The Fully Sharded Data Parallel (FSDP) strategy has been implemented as part of the training loop. This approach shards the model parameters, gradients, and optimizer state to enable training GPT-2-like models on a single machine.
 
-## Usage
 
-To run the code for different tasks, follow the instructions in the respective directories. Ensure that you have the required dependencies installed.
-
-```bash
-# Example command for running the single GPU training loop
-python train_single_gpu.py

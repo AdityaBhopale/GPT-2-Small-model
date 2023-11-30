@@ -4,7 +4,7 @@
 
 This repository contains the implementation of the GPT-2 model along with modifications and enhancements as specified in the given tasks. The tasks include implementing the GPT-2 model, making architectural changes, and implementing a training loop with different parallelization strategies.
 
-## Task 1: GPT-2 Model Implementation and Checkpoints (20 Points)
+## Task 1: GPT-2 Model Implementation and Checkpoints
 
 ### Implementation
 
@@ -14,7 +14,7 @@ The GPT-2 model has been implemented from scratch in Python using PyTorch. The m
 
 The implemented GPT-2 model has been validated by loading the checkpoints of the original GPT-2 125M model. Sample predictions have been performed to ensure the correct functioning of the model.
 
-## Task 2: Transformer Architectural Changes (40 Points)
+## Task 2: Transformer Architectural Changes
 
 ### Rotary Positional Embedding
 
@@ -28,7 +28,7 @@ An implementation of the Group Query Attention mechanism has been added to the G
 
 The GPT-2 model now includes the Sliding Window Attention mechanism based on the insights from Beltagy et al.'s Longformer. The effects of this mechanism on model performance have been observed and analyzed.
 
-## Task 3: Training Loop Implementation (40 Points)
+## Task 3: Training Loop Implementation
 
 ### Single GPU Training Loop
 

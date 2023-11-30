@@ -28,15 +28,7 @@ An implementation of the Group Query Attention mechanism has been added to the G
 
 The GPT-2 model now includes the Sliding Window Attention mechanism based on the insights from Beltagy et al.'s Longformer. The effects of this mechanism on model performance have been observed and analyzed.
 
-## Task 3: Training Loop Implementation
 
-### Single GPU Training Loop
-
-A training loop has been implemented to train the GPT-2 model on a single GPU setup. The loop includes the necessary components such as forward pass, backward pass, optimization, and logging.
-
-### Distributed Data Parallel (DDP)
-
-The training loop has been extended to support distributed training across multiple GPUs using PyTorch's Distributed Data Parallel (DDP). The code has been adapted to handle the distributed environment.
 
 ### Fully Sharded Data Parallel (FSDP)
 

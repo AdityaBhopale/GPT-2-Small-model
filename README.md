@@ -1,4 +1,4 @@
-# GPT-2-Small-model
+# GPT-2 model
 
 # GPT-2 Architecture Modification and Training
 
